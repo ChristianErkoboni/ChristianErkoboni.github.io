@@ -1,6 +1,8 @@
+* {
+  font-family: 'Indie Flower', cursive;
+}
 h1 {
   font-size: 50px;
-  font-family: Courier;
   font-style: italic;
   color: #0000FF;
   text-align: center;
@@ -9,7 +11,6 @@ p {
   font-size: 35px;
   color: DarkGreen;
   text-align: center;
-  font-family: Courier;
 }
 body {
   background-color: LightSkyBlue;
