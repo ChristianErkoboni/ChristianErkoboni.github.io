@@ -122,16 +122,23 @@ table{
 .gaming-project{
   text-decoration: none;
   font-size: 35px;
+  color: black;
 }
 
 .gaming-project:hover{
   text-decoration: none;
   font-size: 35px;
   background-color: transparent;
+  color: rgb(2, 48, 108);
+}
+
+.here-hover{
   color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .here-hover:hover{
   background-color: transparent;
-  color: black;
+  color: rgb(2, 48, 108);
 }
