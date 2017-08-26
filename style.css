@@ -125,6 +125,19 @@ table{
   color: black;
 }
 
+.text-based{
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+}
+
+.text-based:hover{
+  text-decoration: none;
+  font-size: 35px;
+  background-color: transparent;
+  color: rgb(2, 48, 108);
+}
+
 .gaming-project:hover{
   text-decoration: none;
   font-size: 35px;
