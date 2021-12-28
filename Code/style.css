@@ -1,16 +1,35 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   color: white;
+  background-color: #F97794;
   min-height: 100vh;
-  background-image: linear-gradient( 0deg, #43CBFF 0%, #9708CC 100%);
   font-weight: lighter;
 }
 
 h1 {
-  font-size: 75px;
-  font-style: italic;
-  text-align: center;
+  font-size: 55px;
+  text-align: left;
   font-family: 'Abel', sans-serif;
+}
+
+h1>span {
+  display:inline-block;
+}
+
+h1 span span {
+  display:inline-block;
+  max-width:0;
+  overflow: hidden;
+  transition: max-width 1s;
+  vertical-align: bottom;
+}
+
+h1 span span::after {
+  content: '\00a0'
+}
+
+h1:hover span span {
+  max-width: 300px;
 }
 
 h2 {
