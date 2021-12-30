@@ -99,3 +99,8 @@ body > footer {
   top: 100vh;
   margin-bottom: 10px;
 }
+
+.p1Project{
+  text-align: left;
+  padding-left: 25px;
+}
